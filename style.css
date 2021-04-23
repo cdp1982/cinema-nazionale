@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Poiret One', cursive;
+
+}
+
+.color-title{
+    background-color: darkolivegreen;
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.h-header{
+    display: flex;
+    background-size: cover;
+}
+
+.main-image{
+    width: 100%;
+    filter: grayscale(100%) contrast(150%);
+}
+
+.page-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.riga{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+.text{
+    text-align: center;
+    width: 50vw;
+    height: 50vw;
+    min-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+
+}
+
+.item{
+    width: 50vw;
+    height: 50vw ;
+    background-color: yellow;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .text{
+        width: 100vw;
+        height: 100vw;
+        font-size: small;
+    }
+    
+    .item{
+        width: 100vw;
+        height: 100vw ;
+    }
+
+    .riga{
+        flex-wrap:wrap;
+    }
+}
+
+.image{
+    width: 100%;
+    height: 100%;
+    background-image: url("/images/cinema\ nazionale\ con\ persone.jpg");
+    background-position: center center;
+}
+
+.map{
+    width: 100%;
+    height: 100%;
+}
+
+.paragraph{
+    width: 100%;
+}
+
+
+.footer{
+    background-color: darkolivegreen;
+    padding: 10px;
+    font-weight: bold;
+}
