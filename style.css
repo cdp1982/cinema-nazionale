@@ -81,7 +81,7 @@ body{
 .image{
     width: 100%;
     height: 100%;
-    background-image: url("/images/cinema\ nazionale\ con\ persone.jpg");
+    background-image: url("./images/cinema\ nazionale\ con\ persone.jpg");
     background-position: center center;
 }
 
